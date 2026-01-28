@@ -1,11 +1,10 @@
 📊 COVID-19 in India Dashboard Analysis
 
-<img width="1046" height="779" alt="image" src="https://github.com/user-attachments/assets/115377c6-c12c-4099-a064-d4d91fd3598d" />
+<img width="1043" height="772" alt="image" src="https://github.com/user-attachments/assets/f8b9b9e2-4c7b-45ec-b4c4-f127d0a25091" />
+
 
 
 An interactive Tableau dashboard project that visualizes and analyzes the spread, impact, and response to COVID-19 in India using state-wise, demographic, vaccination, and healthcare infrastructure data. The dashboard supports data-driven public health insights and decision-making through clear, real-time visualizations. 
-
-BDA_COVID_Report
 
 🧠 Problem Statement
 
@@ -19,8 +18,6 @@ Assessing healthcare capacity
 
 Supporting informed public health decisions 
 
-BDA_COVID_Report
-
 🎯 Project Objectives
 
 Visualize COVID-19 cases, deaths, recoveries, and testing data across Indian states
@@ -33,8 +30,6 @@ Evaluate healthcare infrastructure such as hospital beds and testing labs
 
 Build an interactive, user-friendly dashboard for public health insights 
 
-BDA_COVID_Report
-
 🛠️ Tools & Technologies
 
 Visualization Tool: Tableau Desktop 24.2
@@ -44,8 +39,6 @@ Data Sources: Government of India public datasets, ICMR reports
 Platform: Windows / macOS / Linux
 
 Data Formats: CSV, Excel 
-
-BDA_COVID_Report
 
 📌 Dashboard Components
 
@@ -81,8 +74,6 @@ Assessment of healthcare capacity during peak pandemic periods.
 State-wise Gender Impact Analysis
 Combined demographic and regional insights. 
 
-BDA_COVID_Report
-
 🔍 Methodology
 
 Data Collection: Sourced from official government and ICMR datasets
@@ -103,8 +94,6 @@ Donut charts
 
 Interactivity: Filters, tooltips, and parameters for dynamic exploration 
 
-BDA_COVID_Report
-
 📈 Key Insights
 
 Highly populated states experienced faster transmission and higher fatalities
@@ -116,8 +105,6 @@ Significant variation existed in healthcare capacity across states
 Gender and age played a critical role in infection severity and outcomes
 
 Dashboard-based monitoring enabled better resource planning and awareness 
-
-BDA_COVID_Report
 
 🎓 Learning Outcomes
 
@@ -131,8 +118,6 @@ Ability to derive actionable insights from real-world data
 
 Improved analytical thinking and storytelling with data 
 
-BDA_COVID_Report
-
 📂 How to Use This Project
 
 Open the Tableau workbook (.twbx or .twb) in Tableau Desktop
@@ -143,4 +128,3 @@ Navigate through dashboard tabs for different analyses
 
 Export visualizations if needed for reports or presentations
 
-ul so far?
