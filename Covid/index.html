@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>COVID - 19 in India Dashboard Analysis</title>
+</head>
+<body>
+    <div class="ImageContainer">
+        <img src="https://www.paho.org/sites/default/files/styles/max_1500x1500/public/2021-01/covid-19-dna-1500x765.jpg?itok=w4RQ_gOr" alt="This is an image">
+    </div>
+
+        <div class="DashBoardPage"id="DashBoardPage">
+            <div class="title-text" id = "title-text">
+                COVID-19 Data Analysis Dashboard - India
+            </div>
+            <img id = "covidbg" src="./image/Covid_bg.png" alt = "Covid_BG"/> 
+            <div id="InputField">
+                <select id="inputField" onchange="handleSelection()">
+                    <option value="" disabled selected>Choose COVID-19 Data View</option>
+                    <option value="Death in overall India">Death in overall India</option>
+                    <option value="Covid cases by state">Covid cases by state</option>
+                    <option value="First and second dose administration">First and second dose administration</option>
+                    <option value="Doses administration by vaccine">Doses administration by vaccine</option>
+                    <option value="Age group">Age group</option>
+                    <option value="Gender">Gender</option>
+                    <option value="ICMR testing labs in each state">ICMR testing labs in each state</option>
+                    <option value="Statewise testing details">Statewise testing details</option>
+                    <option value="No of Beds">No of Beds in Urban and Rural</option>
+                    <option value="Statewise Gender Analysis">Statewise Gender Analysis</option>
+                </select>
+
+              </div>
+              <div id="tableauEmbed"></div> 
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

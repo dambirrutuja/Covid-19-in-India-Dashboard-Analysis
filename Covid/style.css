@@ -1,0 +1,110 @@
+*{
+    padding:0%;
+
+}
+
+body
+{
+position: absolute;
+height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.ImageContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(100%);
+    z-index: 1;
+}
+
+.DashBoardPage{
+
+    position: absolute;
+    height: 40rem;
+    width: 70rem;
+    background-color: rgba(0, 0, 0, 0.611); 
+    box-shadow: 1px 1px 20px 3cqb rgba(52, 52, 52, 0.319);
+    z-index: 2;
+   border-radius: 5%;
+   display: flex;
+   flex-direction: row;
+   backdrop-filter: blur(2.5px);
+   justify-content: space-evenly;
+}
+
+#InputField{
+    position: absolute;
+    top:16rem;
+    
+}
+
+#inputField{
+    padding:1rem;
+    margin-bottom: 1cm;
+    font-size: 0.5cm;
+    width:9cm;
+    background-color:white;
+    filter: opacity(100%);
+    border-radius: 10px;
+
+
+}
+
+
+/* Adjust position of input field when script is loaded */
+.shifted #InputField {
+    top: 0.5cm;
+    transform: translateY(0);
+    transition: 1s ease-in-out;
+}
+
+
+
+button {
+    padding:1rem;
+    font-size: 0.5cm;
+    border-radius: 10px;
+    margin-left: 0.5cm;
+    background-color: #ffffff;
+    border: none;
+    transition: 0.5s ease-in-out ;
+}
+
+button:hover{
+    transform: scale(0.98);
+}
+
+.title-text{
+    position: absolute;
+    margin:3cm;
+    height:2cm;
+    width:27cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    font-family: "Playfair Display", serif;
+  font-size: 1.4cm;
+   color: #ffffff;
+    z-index: 4;
+}
+
+#covidbg{
+    position: absolute;
+    bottom:1cm;
+    height:6.5cm;
+    width:25cm;
+    z-index: 3;
+}
