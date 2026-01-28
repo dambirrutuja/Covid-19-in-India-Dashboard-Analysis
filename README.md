@@ -1,5 +1,7 @@
 📊 COVID-19 in India Dashboard Analysis
+
 ![COVID-19 Dashboard](images/covid_dashboard.png)
+
 An interactive Tableau dashboard project that visualizes and analyzes the spread, impact, and response to COVID-19 in India using state-wise, demographic, vaccination, and healthcare infrastructure data. The dashboard supports data-driven public health insights and decision-making through clear, real-time visualizations. 
 
 BDA_COVID_Report
